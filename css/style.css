@@ -1,3 +1,125 @@
+/* COMMON */
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: aqua;
+    position: relative;
 }
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top-header {
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+}
+
+.top-header img {
+    width: 15%;
+    padding-right: .5rem;
+}
+
+.bottom-header {
+    height: 60px;
+    background-color: white;
+}
+
+.bottom-header img {
+    width: 20%;
+
+}
+
+.ms_style-navbar {
+    display: none;
+}
+
+.menu {
+    text-align: end;
+}
+
+.menu i {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    margin: 0.8rem 1rem;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.right-nav {
+    display: none;
+}
+
+@media all and (min-width: 992px) {
+    /* NAV */
+    .top-header img {
+        width: 5%;
+    }
+
+    .bottom-header img {
+        width: 6%;
+    }
+
+    .bottom-header .ms_style-navbar {
+        display: flex;
+        color: black;
+    }
+
+    /* LEFT-NAV */
+    .ms_style-navbar a {
+        color: black;
+        font-size: 1rem;
+    }
+
+    .chevron {
+        width: 10px;
+    }
+
+    .nav-item {
+        width: 20%;
+    }
+
+    /* RIGHT-NAV */
+    .menu i {
+        display: none;
+        margin: 0;
+        border: 0;
+    }
+
+    .menu ul {
+        display: flex;
+        margin: 1rem;
+    }
+
+    .search-icon i{
+        display: block;
+        color: black;
+    }
+
+    .right-nav li {
+        padding-right: .5rem;
+    }
+}
+
+/* JUMBOTRON */
