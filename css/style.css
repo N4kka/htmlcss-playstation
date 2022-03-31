@@ -369,3 +369,27 @@ header {
         font-size: 18px;
     }
 }
+
+/* EIGHT SECTION */
+.ps-now {
+    background-color: #161c3b;
+}
+
+.ps-now-image img {
+    width: 60%;
+}
+
+.ps-now-text {
+    font-size: 15px;
+    padding: 2rem 0;
+}
+
+.featured-games {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    .featured-games {
+        display: block;
+    }
+}
