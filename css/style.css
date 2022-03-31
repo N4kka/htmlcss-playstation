@@ -24,6 +24,10 @@ a {
     background-color: orangered;
 }
 
+.fs {
+    font-size: 17px;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -187,6 +191,8 @@ header {
     color: #2586d5;
 }
 
+
+/* SECOND SECTION */
 .img-opacity {
     opacity: .7;
 }
@@ -232,4 +238,52 @@ header {
         border-bottom: 1px solid #2586d5;
         margin-right: 2rem;
     }
+}
+
+/* THIRD SECTION */
+.games {
+    height: 550px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.takes-img {
+    width: 55%;
+}
+
+.takes-description {
+    margin-top: 2rem;
+}
+
+.takes-description p {
+    padding: 20px 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media all and (min-width: 992px) {
+    .takes-img {
+        width: 15%;
+    }
+
+    .takes-description {
+        width: 19%;
+    }
+}
+
+.new-releases {
+    margin-top: -14px;
+    background-color: #1f1f1f;
+    padding: 3rem;
+}
+
+.new-releases h2 {
+    margin-bottom: 2rem;
+}
+
+@media all and (min-width: 576) and (max-width: 768px) {
+    
 }
