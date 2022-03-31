@@ -274,6 +274,7 @@ header {
     }
 }
 
+/* FOURTH SECTION */
 .new-releases {
     background-color: #1f1f1f;
     padding: 3rem;
@@ -283,12 +284,88 @@ header {
     margin-bottom: 2rem;
 }
 
-/* FOURT SECTION */
+/* FIFTH SECTION */
 .explore {
     margin-top: 3rem;
     text-align: center;
 }
 
 .fs-21 {
-    font-size: 20px;
+    font-size: 21px;
+}
+
+/* SIXTH SECTION */
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.ps-plus-image img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.ps-plus-text {
+    padding-bottom: 3rem;
+}
+
+.ps-plus-text>p {
+    padding: 1rem 0;
+}
+
+.april-games {
+    display: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .ps-plus-image img {
+        width: 60%;
+        margin-top: 1rem;
+    }
+
+    .ps-plus-text {
+        font-size: 18px;
+    }
+
+    .april-games {
+        display: block;
+    }
+
+    .ps-plus-text {
+        padding-bottom: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .ms_ps-plus {
+        margin-top: 5rem;
+    }
+    
+    .april-games {
+        display: block;
+    }
+}
+
+/* SEVENTH SECTION */
+.discounts {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.title-discount h2 {
+    font-size: 3rem;
+}
+
+.title-discount p {
+    margin: 2rem 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .title-discount h2 {
+        font-size: 2rem;
+    }
+
+    .title-discount p {
+        font-size: 18px;
+    }
 }
