@@ -186,3 +186,50 @@ header {
 .nolimits h5 {
     color: #2586d5;
 }
+
+.img-opacity {
+    opacity: .7;
+}
+
+.ps5-hardware {
+    display: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .ms_ps5 h2 {
+        font-size: 2.5rem;
+    }
+
+    .ps5-hardware {
+        display: block;
+    }
+
+    .ms_console-img {
+        text-align: center;
+        border-bottom: 1px solid #2586d5;
+        margin-right: 2rem;
+    }
+}
+
+@media all and (min-width: 992px) {
+    
+
+    .ms_ps5 {
+        margin-top: 17rem;
+    }
+
+    .ms_lg-size {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .ps5-hardware {
+        display: block;
+    }
+
+    .ms_console-img {
+        text-align: center;
+        border-bottom: 1px solid #2586d5;
+        margin-right: 2rem;
+    }
+}
