@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    background-color: aqua;
     position: relative;
 }
 
@@ -18,6 +17,11 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.btn-orange {
+    padding: 10px;
+    background-color: orangered;
 }
 
 /* HEADER */
@@ -71,6 +75,12 @@ header {
     display: none;
 }
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #logo {
+        width: 15%;
+    }
+}
+
 @media all and (min-width: 992px) {
     /* NAV */
     .top-header img {
@@ -79,6 +89,7 @@ header {
 
     .bottom-header img {
         width: 6%;
+        margin-left: 10px;
     }
 
     .bottom-header .ms_style-navbar {
@@ -123,3 +134,35 @@ header {
 }
 
 /* JUMBOTRON */
+.jumbotron {
+    height: 550px;
+    margin-top: 90px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.jumbotron img {
+    width: 50%;
+    margin-top: 15rem;
+    filter: saturate(1);
+}
+
+.ms_style-jumbotext {
+    margin-top: 2rem;
+}
+
+.ms_style-jumbotext p {
+    padding: 20px 0;
+}
+
+@media all and (min-width: 992px) {
+    .jumbotron img {
+        width: 15%;
+        margin-left: 2rem;
+    }
+
+    .ms_style-jumbotext {
+        margin-left: 2rem;
+    }
+}
