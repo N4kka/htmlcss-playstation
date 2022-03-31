@@ -393,3 +393,55 @@ header {
         display: block;
     }
 }
+
+/* NINETH SECTION */
+.social-media {
+    text-align: center;
+}
+
+/* TENTH SECTION */
+footer {
+    background-color: #00439c;
+}
+
+.footer-logo img {
+    width: 25%;
+    margin-top: 5rem;
+}
+
+.footer-logo p {
+    margin: 2rem 0;
+}
+
+.footer-list li {
+    padding: .3rem 0;
+}
+
+.sony-logo img {
+    width: 25%;
+    margin: 2rem .5rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.sony-logo {
+    margin-bottom: 5rem;
+}
+
+@media all and (min-width: 768px) {
+    .footer-logo img {
+        width: 20%;
+    }
+
+    .sony-logo p {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .footer-list {
+        margin-top: 5rem;
+    }
+}
