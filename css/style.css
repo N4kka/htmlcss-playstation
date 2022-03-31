@@ -166,3 +166,23 @@ header {
         margin-left: 2rem;
     }
 }
+
+/* 1ST SECTION */
+.ms_container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.thumbnail {
+    padding: .8rem;
+    border-radius: 25px;
+}
+
+.nolimits {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.nolimits h5 {
+    color: #2586d5;
+}
