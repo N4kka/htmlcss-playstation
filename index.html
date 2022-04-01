@@ -24,61 +24,66 @@
             </div>
             <div class="bottom-header">
                 <div class="row">
-                    <div class="d-lg-flex col-6 col-lg-6">
-                        <img id="logo" src="img/play_logo.svg" alt="Logo PlayStation">
-                        <nav class="ms_style-navbar navbar navbar-expand-lg">
+                    <div class="col-12 col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <div class="container-fluid">
-                              <a class="navbar-brand nav-item" href="#">Giochi 
-                                  <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                              </a>
-                              <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                  <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Hardware
-                                        <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                    </a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Servizi
-                                      <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                    </a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Novità
-                                      <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                    </a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Fai acquisti
-                                      <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                    </a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Supporto
-                                      <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                    </a>
-                                  </li>
-                                </ul>
-                              </div>
+                                <a class="navbar-brand" href="#">
+                                    <img src="img/play_logo.svg" alt="PlayStation logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Giochi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Servizi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Servizi
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Novità
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Fai Acquisti
+                                            </a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Supporto
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <form class="d-flex">
+                                        <div class="menu">
+                                            <ul class="right-nav">
+                                                <li class="pt-2">
+                                                    <a class="text-dark dropdown-toggle" href="">My PlayStation</a>
+                                                </li>
+                                                <li>
+                                                    <a class="btn btn-secondary rounded-pill" href="#" role="button">Accedi</a>
+                                                </li>
+                                                <li class="search-icon pt-2">
+                                                    <i class="fas fa-search"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </form>                                      
+                                </div>
                             </div>
-                          </nav>
-                    </div>
-                    <div class="col-6 offset-lg-2 col-lg-4">
-                        <div class="menu">
-                            <ul class="right-nav">
-                                <li>
-                                    <a class="text-dark" href="">My PlayStation</a>
-                                    <img class="chevron" src="img/chevron-down-solid.svg" alt="Chevron down">
-                                </li>
-                                <li>
-                                    <button class="btn-dark rounded-pill">Accedi</button>
-                                </li>
-                                <li class="search-icon">
-                                    <i class="fas fa-search"></i>
-                                </li>
-                            </ul>
-                            <i class="fas fa-bars"></i>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -149,21 +154,29 @@
                     <img class="ms_lg-size" src="img/playstation-5-thumb.png" alt="PlayStation 5">
                     <p class="ps5-hardware">Console PS5</p>
                 </div>
-                <div class="col-4 col-md-2 col-lg-2">
-                    <img class="ms_lg-size img-opacity" src="img/joypad-thumb.png" alt="Joypad">
-                    <p class="ps5-hardware text-secondary">Controller Wireless DualSense&trade;</p>
+                <div class="col-4 col-md-2 col-lg-2 text-center">
+                    <div class="img-opacity">
+                        <img class="ms_lg-size" src="img/joypad-thumb.png" alt="Joypad">
+                        <p class="ps5-hardware">Controller Wireless DualSense&trade;</p>
+                    </div>
                 </div>
-                <div class="col-4 col-md-2 col-lg-2">
-                    <img class="ms_lg-size img-opacity" src="img/headset-thumb.png" alt="Headset">
-                    <p class="ps5-hardware text-secondary">Cuffie Wireless con microfono PULSE 3&trade;</p>
+                <div class="col-4 col-md-2 col-lg-2 text-center">
+                    <div class="img-opacity">
+                        <img class="ms_lg-size" src="img/headset-thumb.png" alt="Headset">
+                        <p class="ps5-hardware">Cuffie Wireless con microfono PULSE 3&trade;</p>
+                    </div>
                 </div>
-                <div class="col-4 col-md-2 col-lg-2">
-                    <img class="ms_lg-size img-opacity" src="img/remote-thumb.png" alt="Remote">
-                    <p class="ps5-hardware text-secondary">Telecomando Media</p>
+                <div class="col-4 col-md-2 col-lg-2 text-center">
+                    <div class="img-opacity">
+                        <img class="ms_lg-size" src="img/remote-thumb.png" alt="Remote">
+                        <p class="ps5-hardware">Telecomando Media</p>
+                    </div>
                 </div>
-                <div class="col-4 offset-right-4 col-md-2 col-lg-2">
-                    <img class="ms_lg-size img-opacity" src="img/camera-thumb.jpg" alt="Webcam">
-                    <p class="ps5-hardware text-secondary">Telecamera HD</p>
+                <div class="col-4 offset-right-4 col-md-2 col-lg-2 text-center">
+                    <div class="img-opacity">
+                        <img class="ms_lg-size" src="img/camera-thumb.jpg" alt="Webcam">
+                        <p class="ps5-hardware">Telecamera HD</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -320,7 +333,7 @@
     </section>
     <!-- /SEVENTH SECTION -->
 
-    <!-- EIGHT SECTION -->
+    <!-- EIGHTH SECTION -->
     <section class="ps-now">
         <div class="ms_container">
             <div class="row">
@@ -339,7 +352,7 @@
             </div>
         </div>
     </section>
-    <!-- /EIGHT SECTION -->
+    <!-- /EIGHTH SECTION -->
 
     <!-- NINETH SECTION -->
     <section>

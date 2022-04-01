@@ -5,6 +5,7 @@ html {
 
 body {
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -20,13 +21,17 @@ a {
 }
 
 .ms_container {
-    width: 80%;
+    width: 90%;
     margin: 2rem auto;
 }
 
 .btn-orange {
     padding: 10px;
     background-color: orangered;
+}
+
+.btn-orange:hover {
+    border: 3px solid red;
 }
 
 .fs {
@@ -55,17 +60,30 @@ header {
 }
 
 .bottom-header {
-    height: 60px;
     background-color: white;
 }
 
-.bottom-header img {
-    width: 20%;
-
+#logo { 
+    width: 100%;
 }
 
 .ms_style-navbar {
     display: none;
+    padding: 0;
+    text-align: center;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: gray;
+    vertical-align: middle;
 }
 
 .menu {
@@ -84,21 +102,16 @@ header {
     display: none;
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-    #logo {
-        width: 15%;
-    }
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5c636a;
+    border: 3px solid black;
 }
 
 @media all and (min-width: 992px) {
     /* NAV */
     .top-header img {
-        width: 5%;
-    }
-
-    .bottom-header img {
-        width: 6%;
-        margin-left: 10px;
+        width: 10%;
     }
 
     .bottom-header .ms_style-navbar {
@@ -106,14 +119,14 @@ header {
         color: black;
     }
 
+    #logo {
+        width: 100%;
+    }
+
     /* LEFT-NAV */
     .ms_style-navbar a {
         color: black;
         font-size: 1rem;
-    }
-
-    .chevron {
-        width: 10px;
     }
 
     .nav-item {
@@ -145,7 +158,7 @@ header {
 /* JUMBOTRON */
 .jumbotron {
     height: 550px;
-    margin-top: 90px;
+    margin-top: 100px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
@@ -167,7 +180,7 @@ header {
 
 @media all and (min-width: 992px) {
     .jumbotron img {
-        width: 15%;
+        width: 20%;
         margin-left: 2rem;
     }
 
@@ -180,6 +193,12 @@ header {
 .thumbnail {
     padding: .8rem;
     border-radius: 25px;
+}
+
+.thumbnail:hover {
+    padding: 3px;
+    border: 3px solid blue;
+    margin-top: -10px;
 }
 
 .nolimits {
@@ -195,6 +214,10 @@ header {
 /* SECOND SECTION */
 .img-opacity {
     opacity: .7;
+}
+
+.img-opacity:hover {
+    opacity: 1;
 }
 
 .ps5-hardware {
